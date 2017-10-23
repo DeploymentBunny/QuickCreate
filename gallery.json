@@ -1,18 +1,17 @@
 {
     "images": [
         {
-            /* required */ "name": "Windows 1.0",
+            /* required */ "name": "Windows Server 2016 Desktop Edition",
             /* required */ "version": "1.0",
             /* required */ "locale": "en-US",
-            /* required */ "publisher": "Rafael",
+            /* required */ "publisher": "admminy",
             /* required */ "lastUpdated": "2017-06-07T17:00:00Z", /* UniversalSortableDateTimePattern */
             /* required */ "description": [
-                "Windows 1.0 was officially released on November 20, 1985.\n\n",
-                "This disk requires use of an older generation 1 virtual machine."
+                "Windows Server 2016 Desktop Edition.\n\n"
             ],
             /* required */ "config": {
                 "secureBoot": false,
-				"Generation": 1
+				"generation": 1
             },
             /* Will show a warning if disk space is less than specified amount (in bytes) */
             /* required */ "requirements": {
