@@ -2,7 +2,7 @@
     "images": [
         {
             /* required */ "name": "Windows Server 2016 Desktop Edition",
-            /* required */ "version": "1.0",
+            /* required */ "version": "3.0",
             /* required */ "locale": "en-US",
             /* required */ "publisher": "admminy",
             /* required */ "lastUpdated": "2017-06-07T17:00:00Z", /* UniversalSortableDateTimePattern */
