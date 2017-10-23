@@ -5,7 +5,7 @@
             /* required */ "version": "1.0",
             /* required */ "locale": "en-US",
             /* required */ "publisher": "admminy",
-            /* required */ "lastUpdated": "2017-06-07T17:00:00Z", /* UniversalSortableDateTimePattern */
+            /* required */ "lastUpdated": "2017-10-23T17:00:00Z", /* UniversalSortableDateTimePattern */
             /* required */ "description": [
                 "Windows Server 2016 Datacenter Core (LTSC)"
             ],
@@ -57,7 +57,7 @@
             /* required */ "version": "1.0",
             /* required */ "locale": "en-US",
             /* required */ "publisher": "Markus Lassfolk",
-            /* required */ "lastUpdated": "2017-06-07T17:00:00Z", /* UniversalSortableDateTimePattern */
+            /* required */ "lastUpdated": "2017-10-23T17:00:00Z", /* UniversalSortableDateTimePattern */
             /* required */ "description": [
                 "Windows Server Datacenter Core 1709 (SAC)"
             ],
