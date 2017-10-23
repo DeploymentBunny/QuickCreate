@@ -2,7 +2,7 @@
     "images": [
         {
             /* required */ "name": "WS 2016 Datacenter Core",
-            /* required */ "version": "1.2",
+            /* required */ "version": "1.3",
             /* required */ "locale": "en-US",
             /* required */ "publisher": "admminy",
             /* required */ "lastUpdated": "2017-10-23T17:00:00Z", /* UniversalSortableDateTimePattern */
@@ -10,8 +10,7 @@
                 "Windows Server 2016 Datacenter Core (LTSC)"
             ],
             /* required */ "config": {
-                "secureBoot": false,
-				"generation": 1
+                "secureBoot": false
             },
             /* Will show a warning if disk space is less than specified amount (in bytes) */
             /* required */ "requirements": {
@@ -54,7 +53,7 @@
         },
         {
             /* required */ "name": "WS Datacenter Core 1709",
-            /* required */ "version": "1.2",
+            /* required */ "version": "1.3",
             /* required */ "locale": "en-US",
             /* required */ "publisher": "Markus Lassfolk",
             /* required */ "lastUpdated": "2017-10-23T17:00:00Z", /* UniversalSortableDateTimePattern */
@@ -62,8 +61,7 @@
                 "Windows Server Datacenter Core 1709 (SAC)"
             ],
             /* required */ "config": {
-                "secureBoot": false,
-				"generation": 2
+                "secureBoot": false
             },
             /* Will show a warning if disk space is less than specified amount (in bytes) */
             /* required */ "requirements": {
