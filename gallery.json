@@ -47,8 +47,8 @@
             /* Shown below description in "<bold>Key</bold><space>Value" format
             /* optional */ "details": [
               {
-                "name": "Key",
-                "value": "Value"
+                "name": "Cool",
+                "value": "Yes"
               }
             ]
         }
