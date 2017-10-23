@@ -1,0 +1,40 @@
+{
+    "images": [
+        {
+            "name": "Windows 1803",
+            "version": "1.0",
+            "locale": "en-US",
+            "publisher": "Deployment Bunny",
+            "lastUpdated": "10/23/2017 5:29:00 PM",
+            "description": [
+                "Windows 1803 does not exist.\n\n",
+                "This disk requires the use of time travel."
+            ],
+            "config": {
+                "secureBoot": false
+            },
+            "requirements": {
+                "diskSpace": 0
+            },
+            "disk": {
+                "uri":"http://172.26.176.1:8080/win1.vhd",
+                "hash":"win1.vhd:E767759A2809B5C0AB729FDE1EF92C3E80BAF7588D79054CA9D1DAE28FBEFB8F",
+                "size":6299648,
+                "archiveRelativePath": ""
+            },
+            "logo": {
+                "uri":"http://172.26.176.1:8080/win1.jpg",
+                "hash":"win1.jpg:86355EE270C751A89BD2F5369396AE3ADD55E0C73DA9DC222969E67CFF844469",
+                "size":13303,
+                "archiveRelativePath": ""
+            }
+            // "thumbnail": {
+            //     "uri":"",
+            //     "hash":"",
+            //     "size":"",
+            //     "archiveRelativePath": ""
+            // },
+            // "details": []
+        }
+    ]
+}
