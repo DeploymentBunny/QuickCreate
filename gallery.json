@@ -2,7 +2,7 @@
     "images": [
         {
             /* required */ "name": "WS 2016 Datacenter Core",
-            /* required */ "version": "1.0",
+            /* required */ "version": "1.1",
             /* required */ "locale": "en-US",
             /* required */ "publisher": "admminy",
             /* required */ "lastUpdated": "2017-10-23T17:00:00Z", /* UniversalSortableDateTimePattern */
@@ -54,7 +54,7 @@
         },
         {
             /* required */ "name": "WS Datacenter Core 1709",
-            /* required */ "version": "1.0",
+            /* required */ "version": "1.1",
             /* required */ "locale": "en-US",
             /* required */ "publisher": "Markus Lassfolk",
             /* required */ "lastUpdated": "2017-10-23T17:00:00Z", /* UniversalSortableDateTimePattern */
