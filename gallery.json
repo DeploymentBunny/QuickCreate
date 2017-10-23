@@ -33,7 +33,7 @@
             /* Small square thumbnail, max dimensions: <scales with container> */
             /* optional */ "thumbnail": {
                 /* required */ "uri":"http://srvmdt01/QuickCreatevhd/thump.jpg",
-                /* required */ "hash":"sha256:52CE049CA0BD7A8EAB534F9C9146DDC9F250EE07EEA0D87DD0F798002E252E8E",
+                /* required */ "hash":"sha256:11B2542F1896E405032F1DCF9C8820E218F733B7C482B3C4FB823BB78DE5AE70",
                 /* optional */ "size":13303,
                 /* optional */ "archiveRelativePath": "" 
             },
@@ -85,7 +85,7 @@
             /* Small square thumbnail, max dimensions: <scales with container> */
             /* optional */ "thumbnail": {
                 /* required */ "uri":"http://srvmdt01/QuickCreatevhd/thump.jpg",
-                /* required */ "hash":"sha256:52CE049CA0BD7A8EAB534F9C9146DDC9F250EE07EEA0D87DD0F798002E252E8E",
+                /* required */ "hash":"sha256:11B2542F1896E405032F1DCF9C8820E218F733B7C482B3C4FB823BB78DE5AE70",
                 /* optional */ "size":13303,
                 /* optional */ "archiveRelativePath": "" 
             },
