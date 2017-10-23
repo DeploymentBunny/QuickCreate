@@ -1,7 +1,7 @@
 {
     "images": [
         {
-            /* required */ "name": "Windows Server 2016 Datacenter Core",
+            /* required */ "name": "WS 2016 Datacenter Core",
             /* required */ "version": "1.0",
             /* required */ "locale": "en-US",
             /* required */ "publisher": "admminy",
@@ -53,7 +53,7 @@
             ]
         },
         {
-            /* required */ "name": "Windows Server Datacenter Core 1709",
+            /* required */ "name": "WS Datacenter Core 1709",
             /* required */ "version": "1.0",
             /* required */ "locale": "en-US",
             /* required */ "publisher": "Markus Lassfolk",
