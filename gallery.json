@@ -12,6 +12,7 @@
             ],
             /* required */ "config": {
                 "secureBoot": false
+				"Generation": 1
             },
             /* Will show a warning if disk space is less than specified amount (in bytes) */
             /* required */ "requirements": {
