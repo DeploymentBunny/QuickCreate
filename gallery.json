@@ -51,6 +51,58 @@
                 "value": "Yes"
               }
             ]
+        },
+        {
+            /* required */ "name": "Windows Server 2016 Desktop Edition",
+            /* required */ "version": "2.0",
+            /* required */ "locale": "en-US",
+            /* required */ "publisher": "admminy",
+            /* required */ "lastUpdated": "2017-06-07T17:00:00Z", /* UniversalSortableDateTimePattern */
+            /* required */ "description": [
+                "Windows Server 2016 Desktop Edition.\n\n"
+            ],
+            /* required */ "config": {
+                "secureBoot": false,
+				"generation": 2
+            },
+            /* Will show a warning if disk space is less than specified amount (in bytes) */
+            /* required */ "requirements": {
+                "diskSpace": 0
+            },
+            /* required */ "disk": {
+                /* required */ "uri":"http://srvmdt01/QuickCreatevhd/RWS2016-Datacenter_UEFI.vhdx",
+                /* required */ "hash":"sha256:5EDB327BE109D4F7141F9E1803CDF43A4B89E67395F7F304A08DB6049BD8E72C",
+                /* optional */ "size":6299648,
+                /* optional */ "archiveRelativePath": "" /* Used to identify file in zip archive specified by uri */
+            },
+            /* Logo appears below thumbnail, max dimensions: 100x30 */
+            /* optional */ "logo": {
+                /* required */ "uri":"http://srvmdt01/QuickCreatevhd/logo.jpg",
+                /* required */ "hash":"sha256:325D1C38BAD437AFADEB9345B3E365BF4B38DAF26DA0BD4AEB755F3C912485A9",
+                /* optional */ "size":13303,
+                /* optional */ "archiveRelativePath": "" 
+            },
+            /* Small square thumbnail, max dimensions: <scales with container> */
+            /* optional */ "thumbnail": {
+                /* required */ "uri":"http://srvmdt01/QuickCreatevhd/thump.jpg",
+                /* required */ "hash":"sha256:52CE049CA0BD7A8EAB534F9C9146DDC9F250EE07EEA0D87DD0F798002E252E8E",
+                /* optional */ "size":13303,
+                /* optional */ "archiveRelativePath": "" 
+            },
+            /* Glyph that appears next to the image in the gallery list, max dimensions: 35x35 */
+            /* optional */ "symbol": {
+                /* required */ "uri":"http://srvmdt01/QuickCreatevhd/symbol.jpg",
+                /* required */ "hash":"sha256:093D2DD2BFAB3FC79201A4AC8C625A0B8536BAF3EDB2DBEDCAB937031BB28EF9",
+                /* optional */ "size":13303,
+                /* optional */ "archiveRelativePath": "" 
+            },
+            /* Shown below description in "<bold>Key</bold><space>Value" format
+            /* optional */ "details": [
+              {
+                "name": "Cool",
+                "value": "Yes"
+              }
+            ]
         }
     ]
 }
