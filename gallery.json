@@ -1,40 +1,56 @@
 {
     "images": [
         {
-            "name": "Windows 1803",
-            "version": "1.0",
-            "locale": "en-US",
-            "publisher": "Deployment Bunny",
-            "lastUpdated": "10/23/2017 5:29:00 PM",
-            "description": [
-                "Windows 1803 does not exist.\n\n",
-                "This disk requires the use of time travel."
+            /* required */ "name": "Windows 1.0",
+            /* required */ "version": "1.0",
+            /* required */ "locale": "en-US",
+            /* required */ "publisher": "Rafael",
+            /* required */ "lastUpdated": "2017-06-07T17:00:00Z", /* UniversalSortableDateTimePattern */
+            /* required */ "description": [
+                "Windows 1.0 was officially released on November 20, 1985.\n\n",
+                "This disk requires use of an older generation 1 virtual machine."
             ],
-            "config": {
+            /* required */ "config": {
                 "secureBoot": false
             },
-            "requirements": {
+            /* Will show a warning if disk space is less than specified amount (in bytes) */
+            /* required */ "requirements": {
                 "diskSpace": 0
             },
-            "disk": {
-                "uri":"http://172.26.176.1:8080/win1.vhd",
-                "hash":"win1.vhd:E767759A2809B5C0AB729FDE1EF92C3E80BAF7588D79054CA9D1DAE28FBEFB8F",
-                "size":6299648,
-                "archiveRelativePath": ""
+            /* required */ "disk": {
+                /* required */ "uri":"http://srvmdt01/QuickCreatevhd/RWS2016-Datacenter_UEFI.vhdx",
+                /* required */ "hash":"sha256:5EDB327BE109D4F7141F9E1803CDF43A4B89E67395F7F304A08DB6049BD8E72C",
+                /* optional */ "size":6299648,
+                /* optional */ "archiveRelativePath": "" /* Used to identify file in zip archive specified by uri */
             },
-            "logo": {
-                "uri":"http://172.26.176.1:8080/win1.jpg",
-                "hash":"win1.jpg:86355EE270C751A89BD2F5369396AE3ADD55E0C73DA9DC222969E67CFF844469",
-                "size":13303,
-                "archiveRelativePath": ""
-            }
-            // "thumbnail": {
-            //     "uri":"",
-            //     "hash":"",
-            //     "size":"",
-            //     "archiveRelativePath": ""
-            // },
-            // "details": []
+            /* Logo appears below thumbnail, max dimensions: 100x30 */
+            /* optional */ "logo": {
+                /* required */ "uri":"http://srvmdt01/QuickCreatevhd/logo.jpg",
+                /* required */ "hash":"sha256:325D1C38BAD437AFADEB9345B3E365BF4B38DAF26DA0BD4AEB755F3C912485A9",
+                /* optional */ "size":13303,
+                /* optional */ "archiveRelativePath": "" 
+            },
+            /* Small square thumbnail, max dimensions: <scales with container> */
+            /* optional */ "thumbnail": {
+                /* required */ "uri":"http://srvmdt01/QuickCreatevhd/thump.jpg",
+                /* required */ "hash":"sha256:52CE049CA0BD7A8EAB534F9C9146DDC9F250EE07EEA0D87DD0F798002E252E8E",
+                /* optional */ "size":13303,
+                /* optional */ "archiveRelativePath": "" 
+            },
+            /* Glyph that appears next to the image in the gallery list, max dimensions: 35x35 */
+            /* optional */ "symbol": {
+                /* required */ "uri":"http://srvmdt01/QuickCreatevhd/symbol.jpg",
+                /* required */ "hash":"sha256:093D2DD2BFAB3FC79201A4AC8C625A0B8536BAF3EDB2DBEDCAB937031BB28EF9",
+                /* optional */ "size":13303,
+                /* optional */ "archiveRelativePath": "" 
+            },
+            /* Shown below description in "<bold>Key</bold><space>Value" format
+            /* optional */ "details": [
+              {
+                "name": "Key",
+                "value": "Value"
+              }
+            ]
         }
     ]
 }
